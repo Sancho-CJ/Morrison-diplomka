@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="script/JavaScript.js" defer></script>
+
+</head>
+
+<body>
+    <div class="custom-scroll">
+        <div class="custom-scroll__track">
+          <div class="custom-scroll__thumb"></div>
+        </div>
+    </div>
+    <!-- Прелоадер -->
+    <div id="preloader">
+        <div class="loader-wrapper">
+          <div class="ring ring1"></div>
+          <div class="ring ring2"></div>
+          <p class="loading-text" id="loading-text">Загрузка...</p>
+        </div>
+      </div>
+      <div class="scroll-site">
+        <div class="scroll-background"></div>
+        <div class="scroll-bar"></div>
+      </div>
+    <header class="header">
+        <div class="header__container">
+            <nav class="nav">
+                <div class="nav__left">
+                    <!-- Логотип слева -->
+                    <div class="header__logo">
+                        <a href="#">
+                            <svg width="80" height="89" xmlns="http://www.w3.org/2000/svg">
+                                <text x="10" y="70" font-family="sans-serif" font-size="80" fill="white">M</text>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav__right">
+                    <!-- Бургер-меню справа -->
+                    <div class="burger-menu" id="burger-menu">
+                        <div class="burger-line"></div>
+                        <div class="burger-line"></div>
+                        <div class="burger-line"></div>
+                    </div>
+                </div>
+                <ul class="nav__items" id="nav-items">
+                    <li><a href="#News" class="nav__links">About us</a></li>
+                    <li><a href="#Our-heroes" class="nav__links">Our-heroes</a></li>
+                    <li><a href="#Trailer" class="nav__links">Trailer</a></li>
+                    <li><a href="#Marvel-cards" class="nav__links">Film</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="welcome">
+        <div class="welcome__container">
+            <div class="welcome__left">
+                <div class="welcome__left__wrapper">
+                    <div class="welcome__stars">
+                        <span class="welcome__stars__filled">★</span>
+                        <span class="welcome__stars__filled">★</span>
+                        <span class="welcome__stars__filled">★</span>
+                        <span class="welcome__stars__filled">★</span>
+                        <span class="welcome__stars__unfilled">★</span>
+                        <p>(1 493 761 000)</p>
+                    </div>
+                    <h1>Marvel</h1>
+                    <div class="welcome__mini-information">
+                        <p>👑 since 1939</p>
+                        <p>🎬 33 films</p>
+                    </div>
+                    <p id="welcome-p">Marvel is a vast universe of superheroes created in comics, movies and games. It
+                        is home to Iron Man, Captain America, Thor, Hulk, Spider-Man and other heroes who fight powerful
+                        villains to save the world.</p>
+                    <div class="welcome__buttons">
+                        <a href="#" class="welcome__btn btn"><span>More information</span></a>
+                        <a href="#" class="welcome__btn btn"><span>FAQ</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="welcome__right">
+                <img src="images/Welcome.png" alt="">
+            </div>
+        </div>
+    </section>
+    <div class="neon-line"></div>
+    <section class="News" id="News">
+        <div class="News__carousel">
+            <div class="slide-1 slide">
+                <div class="slide__inner">
+                    <h2>Marvel Rivals</h2>
+                    <p class="slide-p">In 2024, the shooter Marvel Rivals was released, where 38 characters fight in PvP modes. The game
+                        offers destructible environments and unique hero abilities.</p>
+                    <a href="#" class="carousel__btn btn"><span>Learn more</span></a>
+                </div>
+            </div>
+            <div class="slide-2 slide">
+                <div class="slide__inner">
+                    <h2>Zombie Apocalypse</h2>
+                    <p class="slide-p">The animated series Marvel Zombies premieres October 3, 2025 on Disney+. The plot continues the
+                        episode "What If... Zombies?!" and tells about the survival of heroes in a world engulfed by
+                        zombies.</p>
+                    <a href="#" class="carousel__btn btn"><span>Learn more</span></a>
+                </div>
+            </div>
+            <div class="slide-3 slide">
+                <div class="slide__inner">
+                    <h2>Team of Antiheroes</h2>
+                    <p class="slide-p">Thunderbolts will be released on May 2, 2025. Florence Pugh plays Yelena Belova and performs
+                        dangerous stunts, including jumping from the Merdeka 118 skyscraper.</p>
+                    <a href="#" class="carousel__btn btn"><span>Learn more</span></a>
+                </div>
+            </div>
+            <div class="slide-4 slide">
+                <div class="slide__inner">
+                    <h2>New Captain</h2>
+                    <p class="slide-p">Description: In Captain America: Brave New World, Sam Wilson faces an international conspiracy.
+                        Premiered February 14, 2025.</p>
+                    <a href="#" class="carousel__btn btn"><span>Learn more</span></a>
+                </div>
+            </div>
+            <ul class="carousel__navigation">
+                <li class="carousel__indicators"></li>
+                <li class="carousel__indicators"></li>
+                <li class="carousel__indicators"></li>
+                <li class="carousel__indicators"></li>
+            </ul>
+        </div>
+    </section>
+    <div class="neon-line"></div>
+    <section class="Our-heroes" id="Our-heroes">
+        <div class="Our-heroes__container">
+            <div class="paint-splash"></div>
+            <div class="Our-heroes__left">
+                <img src="images/Our-heroes.jpg" alt="">
+            </div>
+            <div class="Our-heroes__right">
+                <div class="Our-heroes__right__wrapper">
+                    <h2>Our heroes</h2>
+                    <p>Strength, courage and sacrifice - our heroes inspire millions.
+                        Each of them left a mark on history, protecting the world from evil.</p>
+                        <a href="#" class="Our-heroes__btn btn">
+                            <span>Heroes characteristics</span>
+                        </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Film" id="Trailer">
+        <div class="Film__container">
+            <div class="Film__video-wrapper">
+                <iframe class="bg-video"
+                    src="https://www.youtube.com/embed/TcMBFSGVi1c?autoplay=1&mute=1&controls=0&start=1&loop=1&playlist=TcMBFSGVi1c"
+                    title="Avengers: Endgame Trailer" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="Film__overlay"></div>
+            <div class="Film__text-overlay">
+                <h2>Avengers: Endgame</h2>
+                <p>Experience the epic conclusion of the Infinity Saga. Join your favorite heroes in the final battle.
+                </p>
+                <div class="Film__watch-block">
+                    <a href="#" class="Film__btn btn"><span>Watch</span>
+                        <div class="watch__icon"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Marvel-cards" id="Marvel-cards">
+        <div class="Marvel__cards">
+            <a href="#" class="Film__category">
+                <h2>Film</h2>
+            </a>
+            <div class="Marvel__cards__wrapper">
+                <a href="#" class="Marvel__card__link">
+                    <div class="Marvel__card">
+                        <div class="Marvel__card__image-1 Marvel__card__image">
+                            <div class="card__rate">
+                                <span>9.0</span>
+                            </div>
+                        </div>
+                        <div class="card__info">
+                            <span>Iron Man</span>
+                            <span>2008</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="Marvel__card__link">
+                    <div class="Marvel__card">
+                        <div class="Marvel__card__image-2 Marvel__card__image">
+                            <div class="card__rate">
+                                <span>9.0</span>
+                            </div>
+                        </div>
+                        <div class="card__info">
+                            <span>The Incredible Hulk</span>
+                            <span>2008</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="Marvel__card__link">
+                    <div class="Marvel__card">
+                        <div class="Marvel__card__image-3 Marvel__card__image">
+                            <div class="card__rate">
+                                <span>9.0</span>
+                            </div>
+                        </div>
+                        <div class="card__info">
+                            <span>Iron Man 2</span>
+                            <span>2010</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="Marvel__card__link">
+                    <div class="Marvel__card">
+                        <div class="Marvel__card__image-4 Marvel__card__image">
+                            <div class="card__rate">
+                                <span>9.0</span>
+                            </div>
+                        </div>
+                        <div class="card__info">
+                            <span>Thor</span>
+                            <span>2011</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="Marvel__card__link">
+                    <div class="Marvel__card">
+                        <div class="Marvel__card__image-5 Marvel__card__image">
+                            <div class="card__rate">
+                                <span>9.0</span>
+                            </div>
+                        </div>
+                        <div class="card__info">
+                            <span>Captain America: The First Avenger</span>
+                            <span>2011</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="Marvel__card__link">
+                    <div class="Marvel__card">
+                        <div class="Marvel__card__image-6 Marvel__card__image">
+                            <div class="card__rate">
+                                <span>9.0</span>
+                            </div>
+                        </div>
+                        <div class="card__info">
+                            <span>The Avengeres</span>
+                            <span>2012</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="Marvel__card__link">
+                    <div class="Marvel__card">
+                        <div class="Marvel__card__image-7 Marvel__card__image">
+                            <div class="card__rate">
+                                <span>9.0</span>
+                            </div>
+                        </div>
+                        <div class="card__info">
+                            <span>Iron Man 3</span>
+                            <span>2013</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="Marvel__card__link">
+                    <div class="Marvel__card">
+                        <div class="Marvel__card__image-8 Marvel__card__image">
+                            <div class="card__rate">
+                                <span>9.0</span>
+                            </div>
+                        </div>
+                        <div class="card__info">
+                            <span>Thor: The Dark World</span>
+                            <span>2013</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="Marvel__card__link">
+                    <div class="Marvel__card">
+                        <div class="Marvel__card__image-9 Marvel__card__image">
+                            <div class="arrow-right"></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="custom-scrollbar">
+                <div class="scroll-track"></div>
+                <div class="scroll-thumb" id="scroll-thumb"></div>
+            </div>
+        </div>
+    </section>
+    <section class="Comics">
+        <div class="Comics__container">
+
+        </div>
+    </section>
+    <footer>
+        <div class="footer__container">
+            <div class="footer__container__top">
+                <div class="footer__logo">
+                    <a href="#">
+                        <svg width="80" height="89" xmlns="http://www.w3.org/2000/svg"><text x="10" y="70"
+                                font-family="sans-serif" font-size="80" fill="white">M</text></svg>
+                    </a>
+                </div>
+                <div class="footer__column">
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">About Marvel</a></li>
+                        <li><a href="#" class="footer__link">Help/FAQs</a></li>
+                        <li><a href="#" class="footer__link">Careers</a></li>
+                        <li><a href="#" class="footer__link">Internships</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Advertising</a></li>
+                        <li><a href="#" class="footer__link">Disney+</a></li>
+                        <li><a href="#" class="footer__link">Marvelhq.com</a></li>
+                        <li><a href="#" class="footer__link">Redeem Digital Comics</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__container__bottom">
+                <ul class="footer__legal">
+                    <li><a href="#" class="footer__link">Terms of Use</a></li>
+                    <li><a href="#" class="footer__link">Privacy Policy</a></li>
+                    <li><a href="#" class="footer__link">Interest-Based Ads</a></li>
+                    <li><a href="#" class="footer__link">License Agreement</a></li>
+                    <li><a href="#" class="footer__link">©2025 Marvel</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
